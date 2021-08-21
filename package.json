@@ -2,15 +2,16 @@
   "name": "astam",
   "version": "0.1.0",
   "private": true,
-  "main": "main.js",
   "scripts": {
-    "start" : "vue-cli-service build && electron .",
-    "electron": "electron .",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "electron": "electron .",
+    "start": "vue-cli-service build && electron ."
   },
+  "main": "main.js",
   "dependencies": {
+    "@heroicons/vue": "^1.0.4",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
@@ -29,7 +30,8 @@
     "eslint-plugin-vue": "^7.0.0",
     "lint-staged": "^9.5.0",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-windicss": "~1.0.3"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
