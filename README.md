@@ -9,8 +9,10 @@
 <!-- line -->
 <h1></h1> 
 
-<br>
 
 Astam is next-generation task manager with built-in time tracker and more
 
-<img src="./assets/screenshot.png" >
+
+<p align="center">
+  <img src="./assets/screenshot.png" >
+</p>
