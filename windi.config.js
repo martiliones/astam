@@ -9,4 +9,7 @@ export default defineConfig({
       },
     },
   },
+  shortcuts: {
+    'nav-icon-button': 'py-3 px-3 bg-gray-300 dark:bg-gray-700 dark:text-white rounded-xl',
+  },
 })
