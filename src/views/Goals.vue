@@ -1,6 +1,11 @@
 <template>
   <div class="container mx-auto h-max rounded-tl-xl sm:rounded-t-xl p-4 pb-6 sm:p-8 lg:p-4 lg:pb-6 xl:p-8 space-y-6">
-    <h1 class="dark:text-white text-4xl font-bold font-sans">Personal goals</h1>
+    <div class="flex items-center">
+      <h1 class="dark:text-white text-4xl font-bold font-sans">Personal goals</h1>
+      <div class="flex items-center ml-4 p-2 border-gray-300 rounded-md text-gray-500 border">
+        <PlusIcon class="h-4 w-4"/>
+      </div>
+    </div>
     
     <div class="flex flex-wrap items-center gap-5 pt-5">
       <div v-for="(task, index) in tasks" :key="index" class="flex max-w-200px space-x-4 items-center w-125 transition-all cursor-pointer p-5 rounded-md py-7" :class="[task.color]">
@@ -22,10 +27,12 @@
 </template>
 
 <script>
+import { PlusIcon } from '@heroicons/vue/outline';
 import Chart from '@/components/Chart.vue';
 
 export default {
   components: {
+    PlusIcon,
     Chart,
   },
   data() {
