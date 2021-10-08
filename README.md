@@ -9,10 +9,14 @@
 <!-- line -->
 <h1></h1> 
 
+- 🔥 <b>Smart tasks</b> — burnout protection and daily plan generator 
+- 🚩 <b>Goals</b> — set goals and see progress
+- 😀 <b>Emotion tracker</b> — learn how to control your emotions 
+- 🕔 <b>Time tracker</b> — watch out for wasting time
 
-Astam is next-generation task manager with built-in time tracker and more
-
+## Gallery
 
 <p align="center">
   <img src="./assets/screenshot.png" >
 </p>
+
