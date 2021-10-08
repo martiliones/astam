@@ -15,6 +15,7 @@ Astam is a desktop application that aims to improve your emotional state and enh
 - 🚩 <b>Goals</b> — set goals and see progress
 - 😀 <b>Emotion tracker</b> — learn how to control your emotions 
 - 🕔 <b>Time tracker</b> — watch out for wasting time
+- 🛠 <b>Hackable</b> — automatic track your progress from other resources
 
 ## Gallery
 
